@@ -5,7 +5,7 @@ def showCal() :
   
     new_gui = Tk() 
     new_gui.config(background = "white") 
-    new_gui.title("CALENDER") 
+    new_gui.title("CALENDAR") 
     new_gui.geometry("600x600") 
     fetch_year = int(year_field.get()) 
     cal_content = calendar.calendar(fetch_year) 
@@ -17,7 +17,7 @@ if __name__ == "__main__" :
 
     gui = Tk()
     gui.config(background = "white")  
-    gui.title("CALENDER") 
+    gui.title("CALENDAR") 
     gui.geometry("300x300") 
     cal = Label(gui, text = "CALENDAR", bg = "green",
                             font = ("times", 28, 'bold'))  
