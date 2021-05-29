@@ -1,0 +1,43 @@
+import calendar 
+ 
+print ("The calender of year 2023 is : ") 
+print (calendar.calendar(2023))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
